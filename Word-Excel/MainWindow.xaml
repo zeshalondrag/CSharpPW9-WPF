@@ -1,0 +1,31 @@
+﻿<Window x:Class="Word_Excel.MainWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Word_Excel"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Microsoft Office" Height="450" Width="350">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Source="logo-microsoft.png" Grid.Column="1" Grid.Row="1" Width="250" Margin="10"/>
+        <StackPanel Grid.Column="1" Grid.Row="2">
+            <Button x:Name="createWordFile" Content="Создать Word документ" Background="#FF0067B8" BorderBrush="#FF0067B8" Margin="10" Click="createWordFile_Click"/>
+            <Button x:Name="openWordFile" Content="Открыть Word документ" Background="#FF0067B8" BorderBrush="#FF0067B8" Margin="10" Click="openWordFile_Click"/>
+            <Button x:Name="createExcelFile" Content="Создать Excel документ" Background="#FF0067B8" BorderBrush="#FF0067B8" Margin="10" Click="createExcelFile_Click"/>
+            <Button x:Name="openExcelFile" Content="Открыть Excel документ" Background="#FF0067B8" BorderBrush="#FF0067B8" Margin="10" Click="openExcelFile_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

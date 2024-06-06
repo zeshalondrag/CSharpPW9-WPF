@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yaney\\source\\repos\\Word-Excel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8C03E4-CB0B-4CC9-A981-FCF7954867A4}|Word-Excel\\Word-Excel.csproj|c:\\users\\yaney\\source\\repos\\word-excel\\word-excel\\sendemail2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8C03E4-CB0B-4CC9-A981-FCF7954867A4}|Word-Excel\\Word-Excel.csproj|solutionrelative:word-excel\\sendemail2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8C03E4-CB0B-4CC9-A981-FCF7954867A4}|Word-Excel\\Word-Excel.csproj|c:\\users\\yaney\\source\\repos\\word-excel\\word-excel\\excelwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8C03E4-CB0B-4CC9-A981-FCF7954867A4}|Word-Excel\\Word-Excel.csproj|solutionrelative:word-excel\\excelwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8C03E4-CB0B-4CC9-A981-FCF7954867A4}|Word-Excel\\Word-Excel.csproj|c:\\users\\yaney\\source\\repos\\word-excel\\word-excel\\excelwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA8C03E4-CB0B-4CC9-A981-FCF7954867A4}|Word-Excel\\Word-Excel.csproj|solutionrelative:word-excel\\excelwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SendEmail2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yaney\\source\\repos\\Word-Excel\\Word-Excel\\SendEmail2.xaml.cs",
+              "RelativeDocumentMoniker": "Word-Excel\\SendEmail2.xaml.cs",
+              "ToolTip": "C:\\Users\\yaney\\source\\repos\\Word-Excel\\Word-Excel\\SendEmail2.xaml.cs",
+              "RelativeToolTip": "Word-Excel\\SendEmail2.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T06:01:53.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExcelWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yaney\\source\\repos\\Word-Excel\\Word-Excel\\ExcelWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Word-Excel\\ExcelWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\yaney\\source\\repos\\Word-Excel\\Word-Excel\\ExcelWindow.xaml.cs",
+              "RelativeToolTip": "Word-Excel\\ExcelWindow.xaml.cs",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAqwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T06:01:14.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExcelWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\yaney\\source\\repos\\Word-Excel\\Word-Excel\\ExcelWindow.xaml",
+              "RelativeDocumentMoniker": "Word-Excel\\ExcelWindow.xaml",
+              "ToolTip": "C:\\Users\\yaney\\source\\repos\\Word-Excel\\Word-Excel\\ExcelWindow.xaml",
+              "RelativeToolTip": "Word-Excel\\ExcelWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-06T06:01:13.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

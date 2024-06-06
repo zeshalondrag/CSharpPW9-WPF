@@ -1,0 +1,34 @@
+﻿<Window x:Class="Word_Excel.SendEmail2"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Word_Excel"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="SendEmail2" Height="300" Width="500" Background="#FF3C1079">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" TextWrapping="Wrap" TextAlignment="Center" Text="Для отправки необходимо ввести свою почту и пароль от нее, а также почту человека, которому вы хотите отправить этот файл. Сначала ваша почта!" Background="#FFC4ABF1" FontFamily="Arial Black" FontSize="10"/>
+        <TextBox x:Name="log" Grid.Row="1" FontFamily="Arial Black" Foreground="White" materialDesign:HintAssist.Hint="От кого"/>
+        <TextBox x:Name="pass" Grid.Row="2" FontFamily="Arial Black" Foreground="White" materialDesign:HintAssist.Hint="Пароль"/>
+        <TextBlock Grid.Row="3" TextWrapping="Wrap" TextAlignment="Center" Text="Теперь почта того, кому вы хотите отправить, а также тема приложения!!" Background="#FFCFBBF3" FontFamily="Arial Black" FontSize="10"/>
+        <TextBox x:Name="forr" Grid.Row="4" FontFamily="Arial Black" Foreground="White" materialDesign:HintAssist.Hint="Кому"/>
+        <TextBox x:Name="theme" Grid.Row="5" FontFamily="Arial Black" Foreground="White" materialDesign:HintAssist.Hint="Тема"/>
+        <Button x:Name="send" Grid.Row="6" Content="Отправить" Click="send_Click" FontFamily="Arial Black" Background="#FFCA7FCE"/>
+        <Button x:Name="exit" Grid.Row="7" Content="Выход" FontFamily="Arial Black" Background="#FF7C2881" Click="exit_Click"/>
+    </Grid>
+</Window>
